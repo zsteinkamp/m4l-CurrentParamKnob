@@ -16,6 +16,20 @@ No mapping is necessary -- the currently selected parameter is always connected 
 
 Press Cmd-M to enter MIDI mapping mode. Click the knob in the device, then move whatever MIDI controller you want to use. Press Cmd-M to exit MIDI mapping mode. Now, no matter what parameter is selected in the Live Set, that MIDI controller will change its value.
 
+### USB Control
+
+I added this functionality so I could use the knob on my Audient iD14 interface as a Current Param Knob. I have no idea if it will work with other devices, so I'm just taking a good guess here with configuration / configurability.
+
+Hypothetical mapping process:
+* Choose your USB device from the drop-down.
+* Enable `USB Debug` mode to print data received from that device in the Max console. To see the console, right-click the title bar of this device and choose `Open Max Window`.
+* Move whatever controller you want to use.
+* Note the output in the Max console window. The output is `{element} {value}`.
+  * My iD14 knob outputs as element 10, so that's why it is the default.
+* Change the `Element ID` field to the element your controller is emitting.
+* ...
+* Profit!
+
 ## Changelog
 
 * 2025-03-31 - [2](https://github.com/zsteinkamp/m4l-zs-CurrentParamKnob/raw/main/frozen/CurrentParamKnob-v2.amxd) - Add USB Human Interface capability.
