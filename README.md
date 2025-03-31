@@ -27,8 +27,8 @@ Hypothetical mapping process:
 * Note the output in the Max console window. The output is `{element} {value}`.
   * My iD14 knob outputs as element 10, so that's why it is the default.
 * Change the `Element ID` field to the element your controller is emitting.
-* ...
-* Profit!
+* ... at this point the controller should be able to move the dial.
+* Adjust the `Accel` value to give you the feeling you want with your controller.
 
 ## Changelog
 
