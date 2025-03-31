@@ -8,7 +8,7 @@ No mapping is necessary -- the currently selected parameter is always connected 
 
 ## Installation
 
-[Download the newest .amxd file from the latest release](https://github.com/zsteinkamp/m4l-CurrentParamKnob/releases) or clone this repository, and drag the `CurrentParamKnob.amxd` device into a track in Ableton Live.
+Use a download link at the top or bottom of this page, or [download the newest .amxd file from the latest GitHub release](https://github.com/zsteinkamp/m4l-CurrentParamKnob/releases) or clone [this repository](https://github.com/zsteinkamp/m4l-CurrentParamKnob), and drag the `CurrentParamKnob.amxd` device into a track in Ableton Live.
 
 ## Usage
 
