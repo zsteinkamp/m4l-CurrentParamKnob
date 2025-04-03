@@ -2,6 +2,8 @@
 
 This is a Max For Live device that lets you map a MIDI controller or USB Human Interface Device to the currently selected parameter.
 
+![USB Knob](images/usb_knob.jpg)
+
 No mapping is necessary -- the currently selected parameter is always connected to the knob.
 
 ![How it Looks](images/device.png)
